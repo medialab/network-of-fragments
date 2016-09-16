@@ -342,6 +342,11 @@ function initialize(data) {
         distance: tree.get('distance')
       },clientId: 'baee48560b984845974f6b85a07bf7d9'
     });
+
+    // update toner map even if instagam load fails
+    tonerMap.setZoom(11);
+    tonerMap.setCenter(tree.get('point'))
+
   }
 
   function onInstagramDidLoad(event, response, req){

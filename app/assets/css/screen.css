@@ -6753,6 +6753,16 @@ body {
 #pano {
   height: calc(((100% - 135px*2)/100) * 50 );
 }
+#tonerMap,
+#world {
+  height: 15%;
+}
+#map {
+  height: 35%;
+}
+#pano {
+  height: 50%;
+}
 #world {
   width: 33%;
   position: absolute;
